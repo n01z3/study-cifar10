@@ -1,0 +1,6 @@
+dataset:
+  path: '/mnt/ssd2/dataset/cifar'
+  train_dir: 'train'
+  test_dir: 'test'
+  lables_csv: 'trainLabels.csv'
+  sample: 'sampleSubmission.csv'

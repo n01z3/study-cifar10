@@ -1,0 +1,3 @@
+data_params:
+  crop_size: 28
+  fold_id: 0

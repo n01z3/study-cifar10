@@ -1,8 +1,6 @@
-import numpy as np
-from n06_train import *
 from n02_eda import *
 from n04_dataset import *
-import torch
+from n06_train import *
 
 
 def main():

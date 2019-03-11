@@ -1,15 +1,14 @@
+import logging
 import os
-from tqdm import tqdm
-import torch.optim as optim
+import shutil
+
 import torch
 import torch.nn as nn
-import torch.nn.functional as F
-import shutil
+import torch.optim as optim
+from tqdm import tqdm
 
 from n04_dataset import get_loaders
 from n05_model import Net
-
-import logging
 
 
 def get_logger(log_filepath):

@@ -1,8 +1,9 @@
-import pandas as pd
+import os
+
 import cv2
 import matplotlib.pyplot as plt
-import os
-from glob import glob
+import pandas as pd
+
 from n01_config import get_paths
 
 DATA = get_paths()['dataset']

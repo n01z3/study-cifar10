@@ -1,8 +1,3 @@
-import pandas as pd
-import cv2
-import matplotlib.pyplot as plt
-import os
-from glob import glob
 from n02_eda import *
 
 
